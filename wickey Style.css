@@ -1,0 +1,38 @@
+
+h3{
+	text-align: center;
+	font-family: Tahoma;
+	color: red;
+	font-size: 7.5em;
+	text-shadow: 3px 3px lightsalmon;
+
+#main{
+	height: 350px;
+	width: 100%;
+	border: 2px groove red;
+	padding: 9px;
+	background-image: linear-gradient(blue,orange,violet,red,yellowgreen,rosybrown,mintcream,lightsalmon)
+h2{
+	text-align: center;
+text-shadow:3px 2px darkviolet;
+animation: colorchange 1s infinite;
+}
+	
+
+#tiktok{
+	width: 40px;
+	height: 40px;
+}
+@keyframes colorchange {
+	0%{color:red}
+10%{color:blue}
+20%{color:orange}
+30%{color:yellow}
+40%{color:pink}
+50%{color:violet;}
+60%{color:rosybrown;}
+70%{color:lightsalmon;}
+80%{color:orangered;}
+90%{color:mintcream;}
+100%{color:yellowgreen;}
+}

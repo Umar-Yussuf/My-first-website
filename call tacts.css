@@ -1,0 +1,12 @@
+#umar{
+	width: 20%;
+	height: 17px;
+	border: 3px dashed grey;
+	margin: 6px;
+}
+body{
+	background-image: url(sasa.jpg);
+}
+a{
+	color:darkseagreen;
+}

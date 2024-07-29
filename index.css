@@ -1,0 +1,36 @@
+#head{
+	background-image: url(satem.JPG);
+	width: 100%;
+	height: 1000px;
+	align-content: center;
+}
+h1{
+	color:red;
+	text-align: center;
+	font-size: 5.5em;
+}
+		.navigation{
+			background-color: green;
+			color: blue;
+			height: 50px;
+}
+ul{
+	list-style-type: none;
+
+}
+li{
+	display: inline;
+	padding: 10px;
+	border: 2px groove red;
+	margin: 10px;
+	background-color: pink;
+}
+a{
+	background-color: skyblue;
+}
+li a{
+	text-decoration: none;
+}
+	li a:hover{
+		border: 4px dotted gray;
+	}

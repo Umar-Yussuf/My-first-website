@@ -1,0 +1,18 @@
+body{
+	background-color: deepskyblue;
+	background-image: url("green.jpg");
+	/*css coment*/
+}
+h1{
+	color: purple;
+	font-family: impact;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	background-color: red;
+	text-align: center;
+}
+td{
+	text-align: center;
+}
+s

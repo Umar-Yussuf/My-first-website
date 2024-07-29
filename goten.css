@@ -1,0 +1,58 @@
+#Sky{
+	background-color: skyblue;
+	height: 350px;
+	widths: 100%;
+}
+#Sea{
+	background-color: royalblue;
+	height: 350px;
+}
+
+#rainbow{
+	
+
+	left: 60%;
+}
+@keyframes sunmovement{
+	0%{top: 200px;}
+	40%{left:300px; top: 3px;}
+	60%{ bottom: 300px;left: 1000px;}
+	100%{color: black;}
+}
+img{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+
+}
+#boy{
+	top: 200px;
+animation: sunmovement 3s infinite;
+	
+}
+#robot{
+	animation: boatmovement 5s infinite ;
+
+}
+@keyframes boatmovement{
+	0%{left: 100px;}
+	40%{left:300px;}
+	60%{left: 600px;}
+	100%{left: 900px;}
+}
+#girl{
+	animation: rainbowfade 3s infinite;
+}
+@keyframes rainbowfade{
+0%{opacity: 0.9;}
+10%{opacity: 0.8;}
+20%{opacity: 0.7;}
+30%{opacity: 0.6;}
+40%{opacity: 0.5;}
+50%{opacity: 0.4;}
+60%{opacity: 0.3;}
+70%{opacity: 0.2;}
+80%{opacity: 0.1;}
+90%{opacity: 0.0;}
+100%{opacity: 0}
+}

@@ -1,0 +1,22 @@
+img{
+	background-color: lightblue;
+}
+h4{
+	color: purple;
+}
+h1{
+	color: royalblue;
+}
+h2{
+	color: grey;
+}
+td{
+	color: orangered;
+	background-color: burlywood;
+}
+body {
+	background-color: greenyellow;
+	padding: 15px;
+	margin: 10px;
+}
+

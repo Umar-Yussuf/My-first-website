@@ -1,0 +1,23 @@
+body{
+	background-color: skyblue;
+	background-image: url("farm.JPG");
+	/*css coment*/
+
+}
+h1	{
+	color: dodgerblue;
+	font-family: impacts;
+text-decoration:overline ;
+text-transform: uppercase;
+letter-spacing: 10px;
+background-color: burlywood;	
+}
+h2{border: 5px groove greenyellow;
+width: 45%;	
+text-align: right;
+text-shadow: 3px 2px blueviolet;
+}
+p{
+	text-transform: uppercase;
+	line-height: 30px;
+}

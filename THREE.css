@@ -1,0 +1,31 @@
+h4{
+	animation:colorchange 11s infinite;
+}
+@keyframes  colorchange{
+	0%{color: orangered;}
+	20%{color: hotpink;}
+	40%{color: blueviolet;}
+	60%{color: indigo;}
+	80%{color: aliceblue;}
+	100%{color: violet;}
+}
+marquee{
+	color: yellow;
+	animation: sizechange 35s infinite;
+}
+@keyframes sizechange{
+	0%{color: orange;}
+	10%{color: grey;}
+	20%{color: brown;}
+	30%{color: rosybrown;}
+	40%{color: royalblue;}
+	50%{color: lightpink;}
+	60%{color: greenyellow;}
+	70%{color: blanchedalmond;}
+	80%{color: slategrey;}
+	90%{color: mintcream;}
+	100%{color: redpink;}
+}
+body{
+	background-color:mediumvioletred ;
+}
